@@ -4,4 +4,5 @@ project(test)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(test
-        mallocApp.cpp)
+        mallocApp.cpp
+        singleChain.cpp)
