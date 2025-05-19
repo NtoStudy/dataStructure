@@ -232,17 +232,17 @@ double cal_post(char *str){   /*计算后缀表达式*/
     return e;
 }/*calculate_postfix*/
 
-int main()
-{
-    char str[M]; // 输入的中缀表达式
-    char post[M]; // 输出的后缀表达式
-    int i;
-    printf("\n输入一串中缀表达式：\n");
-    gets(str);
-    printf("\n对应的后缀表达式：\n");
-    in2post(str,post);
-    printf("%s",post);
-    printf("\n\n计算后缀表达式：\n");
-    printf("%f",cal_post(post));
-    return 0;
-}
+// int main()
+// {
+//     char str[M]; // 输入的中缀表达式
+//     char post[M]; // 输出的后缀表达式
+//     int i;
+//     printf("\n输入一串中缀表达式：\n");
+//     gets(str);
+//     printf("\n对应的后缀表达式：\n");
+//     in2post(str,post);
+//     printf("%s",post);
+//     printf("\n\n计算后缀表达式：\n");
+//     printf("%f",cal_post(post));
+//     return 0;
+// }

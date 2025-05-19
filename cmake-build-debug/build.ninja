@@ -67,6 +67,12 @@ build CMakeFiles/test.dir/suffixEquation.cpp.o: CXX_COMPILER__test_unscanned_Deb
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir
 
+build CMakeFiles/test.dir/matchingMode.cpp.o: CXX_COMPILER__test_unscanned_Debug /cygdrive/d/Clion/test/matchingMode.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles/test.dir/matchingMode.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/test.dir
+  OBJECT_FILE_DIR = CMakeFiles/test.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target test
@@ -75,7 +81,7 @@ build CMakeFiles/test.dir/suffixEquation.cpp.o: CXX_COMPILER__test_unscanned_Deb
 #############################################
 # Link the executable test.exe
 
-build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/mallocApp.cpp.o CMakeFiles/test.dir/singleChain.cpp.o CMakeFiles/test.dir/suffixEquation.cpp.o
+build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/mallocApp.cpp.o CMakeFiles/test.dir/singleChain.cpp.o CMakeFiles/test.dir/suffixEquation.cpp.o CMakeFiles/test.dir/matchingMode.cpp.o
   FLAGS = -g
   LINK_FLAGS = -Wl,--enable-auto-import
   OBJECT_DIR = CMakeFiles/test.dir
